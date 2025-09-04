@@ -1,10 +1,11 @@
 #include <iostream>
 #include <greeting_utils.h>
 
-using std::cout, std::string, std::endl;
+using std::cout, std::string, std::endl, std::cin, std::getline;
 
 int main(){
-    string name = "Sean";
+    string name = "Sean Connolly";
+    getline(cin, name);
     string output_msg = GreetingUtils::create_message(name);
     cout << output_msg << endl;
     char* char_converted = GreetingUtils::format_as_c_string(output_msg);
