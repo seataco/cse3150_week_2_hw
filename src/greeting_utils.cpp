@@ -1,5 +1,5 @@
 #include <iostream>
-#include <greeting_utils.h>
+#include "../include/greeting_utils.h"
 
 using std::cout, std::cin, std::string, std::endl, std::getline;
 
