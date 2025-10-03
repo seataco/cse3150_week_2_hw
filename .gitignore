@@ -4,3 +4,5 @@ greeter_test.py
 __pycache__
 .pdf
 ._*
+.pytest_cache/
+venv/
